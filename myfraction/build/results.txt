@@ -1,0 +1,208 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+runtest is a Catch v2.10.2 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+Constructor
+  Construct from std::string
+-------------------------------------------------------------------------------
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:43
+...............................................................................
+
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:43: FAILED:
+due to unexpected exception with message:
+  stoi: no conversion
+
+-------------------------------------------------------------------------------
+Constructor
+  Construct from std::string
+-------------------------------------------------------------------------------
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:65
+...............................................................................
+
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:65: FAILED:
+due to unexpected exception with message:
+  stoi: no conversion
+
+-------------------------------------------------------------------------------
+Conversion
+  Proper whole value
+-------------------------------------------------------------------------------
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:98
+...............................................................................
+
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:105: FAILED:
+  CHECK_FALSE( testvalue.isProper() )
+with expansion:
+  !true
+
+-------------------------------------------------------------------------------
+Conversion
+  Always improper
+-------------------------------------------------------------------------------
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:113
+...............................................................................
+
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:113: FAILED:
+due to unexpected exception with message:
+  stoi: no conversion
+
+-------------------------------------------------------------------------------
+Conversion
+  Proper fraction
+-------------------------------------------------------------------------------
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:125
+...............................................................................
+
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:125: FAILED:
+due to unexpected exception with message:
+  stoi: no conversion
+
+-------------------------------------------------------------------------------
+Conversion
+  Improper fraction
+-------------------------------------------------------------------------------
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:140
+...............................................................................
+
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:140: FAILED:
+due to unexpected exception with message:
+  stoi: no conversion
+
+-------------------------------------------------------------------------------
+Conversion
+  makeproper into whole number
+-------------------------------------------------------------------------------
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:169
+...............................................................................
+
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:169: FAILED:
+due to unexpected exception with message:
+  stoi: no conversion
+
+-------------------------------------------------------------------------------
+Conversion
+  toProper on proper fraction
+-------------------------------------------------------------------------------
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:180
+...............................................................................
+
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:180: FAILED:
+due to unexpected exception with message:
+  stoi: no conversion
+
+-------------------------------------------------------------------------------
+Conversion
+  toProper
+-------------------------------------------------------------------------------
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:190
+...............................................................................
+
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:190: FAILED:
+due to unexpected exception with message:
+  stoi: no conversion
+
+-------------------------------------------------------------------------------
+Input
+  Whole number only
+-------------------------------------------------------------------------------
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:203
+...............................................................................
+
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:203: FAILED:
+due to unexpected exception with message:
+  stoi: no conversion
+
+-------------------------------------------------------------------------------
+Input
+  Whole number only
+-------------------------------------------------------------------------------
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:216
+...............................................................................
+
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:216: FAILED:
+due to unexpected exception with message:
+  stoi: no conversion
+
+-------------------------------------------------------------------------------
+Input
+  Negative whole number only
+-------------------------------------------------------------------------------
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:229
+...............................................................................
+
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:229: FAILED:
+due to unexpected exception with message:
+  stoi: no conversion
+
+-------------------------------------------------------------------------------
+Input
+  Read whole number only among other data
+-------------------------------------------------------------------------------
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:242
+...............................................................................
+
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:242: FAILED:
+due to unexpected exception with message:
+  stoi: no conversion
+
+-------------------------------------------------------------------------------
+Input
+  Fraction only
+-------------------------------------------------------------------------------
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:258
+...............................................................................
+
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:258: FAILED:
+due to unexpected exception with message:
+  stoi: no conversion
+
+-------------------------------------------------------------------------------
+Input
+  Negative Fraction only
+-------------------------------------------------------------------------------
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:271
+...............................................................................
+
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:271: FAILED:
+due to unexpected exception with message:
+  stoi: no conversion
+
+-------------------------------------------------------------------------------
+Input
+  Whole and fraction
+-------------------------------------------------------------------------------
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:284
+...............................................................................
+
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:284: FAILED:
+due to unexpected exception with message:
+  stoi: no conversion
+
+-------------------------------------------------------------------------------
+Input
+  Negative Whole and fraction
+-------------------------------------------------------------------------------
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:297
+...............................................................................
+
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:297: FAILED:
+due to unexpected exception with message:
+  stoi: no conversion
+
+-------------------------------------------------------------------------------
+Invalid Input
+  Whole number missing [
+-------------------------------------------------------------------------------
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:328
+...............................................................................
+
+/Users/monicaklosin/Desktop/CIS343/myfraction/runtest.cpp:328: FAILED:
+due to a fatal error condition:
+  SIGINT - Terminal interrupt signal
+
+===============================================================================
+test cases:  4 |  0 passed |  4 failed
+assertions: 38 | 20 passed | 18 failed
+

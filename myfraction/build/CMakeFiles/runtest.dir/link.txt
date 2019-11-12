@@ -1,0 +1,1 @@
+clang++  -g -Wall -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/runtest.dir/Fraction.cpp.o CMakeFiles/runtest.dir/runtest.cpp.o  -o runtest 

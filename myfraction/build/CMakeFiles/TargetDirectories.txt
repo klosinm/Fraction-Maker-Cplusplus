@@ -1,0 +1,3 @@
+/Users/monicaklosin/Desktop/CIS343/myfraction/build/CMakeFiles/rebuild_cache.dir
+/Users/monicaklosin/Desktop/CIS343/myfraction/build/CMakeFiles/edit_cache.dir
+/Users/monicaklosin/Desktop/CIS343/myfraction/build/CMakeFiles/runtest.dir

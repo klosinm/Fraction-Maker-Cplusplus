@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/monicaklosin/Desktop/CIS343/myfraction/Fraction.cpp
+Fraction.h
+/Users/monicaklosin/Desktop/CIS343/myfraction/Fraction.h
+algorithm
+-
+iomanip
+-
+regex
+-
+sstream
+-
+
+/Users/monicaklosin/Desktop/CIS343/myfraction/Fraction.h
+iostream
+-
+optional
+-
+string
+-
+
